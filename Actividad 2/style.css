@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://f.fcdn.app/imgs/7637ab/wikimusculos.com.uy/wik/3ed4/original/blog/441/760x0/batido-22.jpg);
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: deepskyblue;
+}
+encabezado-img{
+    background-image: url(img/fondo.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+encabezado-img h1{
+font-size: 50px;
+padding: 20px 0;
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+img{
+    color: aqua;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer{
+    background-color: black;
+    padding: 80px 0;
+
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-links h4{
+    font-size: 20px;
+    color:white ;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    display:inline-block;
+}
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer-links ul li a:hover{
+    color:#fff;
+    padding-left: 6px;
+}
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0,0.3);
+}
+.btn-green{
+    color: white;
+    background-color: rgba(76, 0, 255, 0.6);
+}
+.btn-green:hover{
+    background-color: rgba(76, 0, 255, 0.6);
+}
+.btn-green:active{
+    background-color: rgba(76, 0, 255, 0.6);
+}
+form{
+    background-color: #070707;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+}
+input textarea{
+    border: 0;
+    outline: none ;
+    width: 300px;
+}
+.name{
+    border: solid 1px #999,
+    padding: 10px;
+}
+.name:focus{
+    border-color: rgb(14, 13, 13);
+
+}
+.container{
+    text-align: center;
+    background: black;
+
+}
